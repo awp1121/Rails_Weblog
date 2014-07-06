@@ -7,6 +7,7 @@ Blog::Application.routes.draw do
   resources :articles
   root 'welcome#index'
 end
+
   # You can have the root of your site routed with "root"
 
   # Example of regular route:
